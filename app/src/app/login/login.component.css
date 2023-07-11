@@ -1,0 +1,67 @@
+html, body{
+  background-color: #393939;
+}
+
+.loginbody {
+  background-size:100% 100%;
+  background-color: #E1ECC8;
+  background-repeat:no-repeat;
+  color: #000000;
+  font: 30px Helvetica, sans-serif;
+}
+h1{
+  font-weight: 900;
+}
+label {
+  font: bold 20px Helvetica, sans-serif;
+  display: block;
+  float: left;
+  padding: 20 20 20 20;
+}
+
+form div {
+  overflow: hidden;
+  margin: 10 0 5px 0;
+}
+
+
+.bigbutton {
+  border-radius: 4px;
+  background-color:  #ffa41b;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 20px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 15px;
+}
+
+.bigbutton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  
+  transition: 0.5s;
+}
+
+.bigbutton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.bigbutton:hover span {
+  padding-right: 25px;
+}
+
+.bigbutton:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+

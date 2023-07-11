@@ -1,0 +1,32 @@
+.body {
+  height: -webkit-fill-available;
+  background: #E1ECC8;
+  color: #000000;
+  font: 14px Helvetica, sans-serif;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+p {
+  color: black;
+}
+
+.total {
+  text-align: center;
+  font-size: large;
+}
+.bigbutton {
+  border-radius: 4px;
+  background-color:  #ffa41b;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 15px;
+  padding: 20px;
+  width: 150px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 15px;
+}
