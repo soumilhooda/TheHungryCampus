@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: com.xwiggy.food.XwiggyApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 2.549 s <<< FAILURE! - in com.xwiggy.food.XwiggyApplicationTests
+contextLoads(com.xwiggy.food.XwiggyApplicationTests)  Time elapsed: 0.009 s  <<< ERROR!
+java.lang.NullPointerException: Cannot invoke "com.xwiggy.food.model.User.getFirstname()" because "user" is null
+	at com.xwiggy.food.XwiggyApplicationTests.contextLoads(XwiggyApplicationTests.java:44)
+
